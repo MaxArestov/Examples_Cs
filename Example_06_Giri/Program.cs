@@ -1,0 +1,35 @@
+﻿int a = new Random().Next(1, 1001);
+Console.WriteLine(a);
+int b = new Random().Next(1, 1000);
+Console.WriteLine(b);
+int c = new Random().Next(1, 1000);
+Console.WriteLine(c);
+int d = new Random().Next(1, 1000);
+Console.WriteLine(d);
+int e = new Random().Next(1, 1000);
+Console.WriteLine(e);
+int f = new Random().Next(1, 1000);
+Console.WriteLine(f);
+int g = new Random().Next(1, 1000);
+Console.WriteLine(g);
+int h = new Random().Next(1, 1000);
+Console.WriteLine(h);
+int i = new Random().Next(1, 1000);
+Console.WriteLine(i);
+int j = new Random().Next(1, 1000);
+Console.WriteLine(j);
+int max = a;
+
+if(a > max) max = a;
+if(b > max) max = b;
+if(c > max) max = c;
+if(d > max) max = d;
+if(e > max) max = e;
+if(f > max) max = f;
+if(g > max) max = g;
+if(h > max) max = h;
+if(i > max) max = i;
+if(j > max) max = j;
+
+Console.Write("Максимальное число из вышестоящих - ");
+Console.WriteLine(max);
